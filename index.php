@@ -11,16 +11,17 @@
     <div class="column is-4 ">
         <label for="word"> Поиск товара</label>
         <input type="text" class="input search" name="word" placeholder="Введите слово">
-        <select name="" id="" class="btn__sort select">
-            <option value="ASC">ASC</option>
-            <option value="DESC">DESC</option>
+        <label for="price"> Искать по цене</label>
+        <select name="price" id="" class="btn__sort select">
+            <option value="ASC">по возрастанию</option>
+            <option value="DESC">по убыванию</option>
         </select>
     </div>
 </div>
-<div class="columns">
-    <div class="column is-4 is-offset-4">
-        <div class="result"></div>
-    </div>
+<div class="columns is-multiline result is-centered">
+<!--    <div class="column is-4 ">-->
+<!--        <div class="result "></div>-->
+<!--    </div>-->
 </div>
 </body>
 </html>
